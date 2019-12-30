@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { OrgChartModule } from '@mondal/org-chart';
+import { ConverterPipe } from './converter.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ConverterPipe
   ],
   imports: [
     BrowserModule,
