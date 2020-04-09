@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod --base-href=/dashlets/orgchart/",
     "build:lib": "ng build --project @mondal/org-chart && npm run scss:bundle",
     "scss:bundle": "scss-bundle -e ./projects/mondal/org-chart/src/_theming.scss -d ./dist/mondal/org-chart/_theming.scss",
     "test": "ng test",
